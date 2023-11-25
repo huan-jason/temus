@@ -1,0 +1,33 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tenus-staging-150317-authRole",
+      "UnauthRoleArn": "arn:aws:iam::174552584737:role/amplify-tenus-staging-150317-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::174552584737:role/amplify-tenus-staging-150317-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-tenus-staging-150317-deployment",
+      "UnauthRoleName": "amplify-tenus-staging-150317-unauthRole",
+      "StackName": "amplify-tenus-staging-150317",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:174552584737:stack/amplify-tenus-staging-150317/c421e5b0-8ba3-11ee-9c2e-02a3d6a86b99",
+      "AmplifyAppId": "d2z4avnzb0ikvw",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-tenus-staging-150317-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "temus": {
+          "deploymentBucketName": "amplify-tenus-staging-150317-deployment",
+          "s3Key": "amplify-builds/temus-69756c716463774f4d74-build.zip"
+        }
+      },
+      "auth": {
+        "temus": {}
+      },
+      "storage": {
+        "photo": {}
+      },
+      "api": {
+        "temus": {}
+      }
+    }
+  }
+}

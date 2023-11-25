@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "paths": {
+    "/photo": {
+      "name": "/photo",
+      "lambdaFunction": "temus",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "read"
+        ]
+      }
+    }
+  }
+}

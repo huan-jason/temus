@@ -1,0 +1,14 @@
+{
+  "resourceName": "photo",
+  "tableName": "photo",
+  "partitionKey": {
+    "fieldName": "user",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "photoUrl",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
